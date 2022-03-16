@@ -1,0 +1,137 @@
+body {
+    color: #70877F;
+    background-color: #454372;
+    font-size: 14px;
+    font-family: "Permanent Marker", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h3,h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+a {
+    color: #708784;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #2F2963;
+  top: 0;
+  min-width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar img {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+    float: right;
+}
+
+.crumb {
+    text-decoration: underline;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 15px;
+    margin-top: 9px;
+}
+
+main {
+    padding-top: 55px;
+}
+
+#mission {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: "Shadows Into Light", Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.mission {
+    padding: 10px;
+    flex-basis: 300px;
+    
+}
+
+.mission img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: auto;
+    justify-content: center;
+}
+
+#productions {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.container-productions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    padding: 10px;
+    flex-basis: 300px;
+    color: #fff;
+}
+
+.box img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+}
+
+.container-team {
+    background-image: url("./Risorse/crewback.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member {
+    padding: 10px;
+    flex-basis: 280px;
+    color: #fff;
+}
+
+.member img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 400px;
+}
+
+footer {
+    background-color: #2F2963;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mail {
+    font-size: 30px;
+}    
