@@ -1,7 +1,6 @@
 body {
     color: #70877F;
     background-color: #454372;
-    font-size: 14px;
     font-family: "Permanent Marker", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -53,7 +52,7 @@ a {
 }
 
 main {
-    padding-top: 55px;
+    padding-top: 85px;
 }
 
 #mission {
@@ -83,6 +82,7 @@ main {
     max-width: 1000px;
     margin: auto;
     padding-top: 25px;
+    font-size: 28px;
 }
 
 .container-productions {
@@ -101,8 +101,16 @@ main {
 .box img {
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 300px;
     height: auto;
+}
+
+#team {
+    padding-top: 75px;
+}
+
+#team h3 {
+    font-size: 28px;
 }
 
 .container-team {
@@ -117,7 +125,7 @@ main {
 .member {
     padding: 10px;
     flex-basis: 280px;
-    color: #000;
+    color: #fff;
 }
 
 .member img {
@@ -129,7 +137,7 @@ main {
 
 footer {
     background-color: #2F2963;
-    padding-top: 25px;
+    padding-top: 75px;
     padding-bottom: 25px;
 }
 
